@@ -9,6 +9,7 @@ body{
     height: 500px;
     width: 500px;
     align-items: stretch;
+    border: solid;
 }
 
 .grid-column{
@@ -20,5 +21,4 @@ body{
 
 .grid-square{
     flex: 1;
-    background-color: rgb(114, 146, 241);
 }
