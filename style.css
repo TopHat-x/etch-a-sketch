@@ -2,6 +2,16 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
+    background-color: slategray;
+}
+
+#reset-button{
+    font-size: 32px;
+    margin: 50px;
+    padding: 10px;
+    border: solid black;
+    border-radius: 10px;
+    background-color: skyblue;
 }
 
 #grid-container{

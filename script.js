@@ -81,7 +81,7 @@ function randomInt(max) {
 }
 
 function getRGBValues(str) {
-    var vals = str.substring(str.indexOf('(') +1, str.length -1).split(', ');
+    let vals = str.substring(str.indexOf('(') +1, str.length -1).split(', ');
     return vals;
   }
 
