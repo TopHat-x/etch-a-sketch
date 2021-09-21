@@ -1,0 +1,24 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#grid-container{
+    display:flex;
+    height: 500px;
+    width: 500px;
+    align-items: stretch;
+}
+
+.grid-column{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.grid-square{
+    flex: 1;
+    background-color: rgb(114, 146, 241);
+}
